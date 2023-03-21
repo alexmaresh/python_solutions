@@ -3,13 +3,10 @@
 # Note: input will never be an empty string
 
 def fake_bin(x):
-    res=''
+    res = ''
     for i in x:
-        if int(i)< 5:
-            res+='0'
+        if int(i) < 5:
+            res += '0'
         else:
             res += '1'
     return res
-
-
-
